@@ -9,4 +9,12 @@ require __DIR__ . '/../vendor/yiisoft/yii2/Yii.php';
 
 $config = require __DIR__ . '/../config/web.php';
 
+// 加入版本号 RELEASE_VERSION
+if ( file_exists("/Users/release_version/version_book") ) {
+    define("RELEASE_VERSION", trim( file_get_contents("/Users/release_version/version_book") ));
+} else {
+    define("RELEASE_VERSION", time());
+}
+
+//var_dump(RELEASE_VERSION); exit(0);
 (new yii\web\Application($config))->run();
