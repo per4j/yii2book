@@ -49,3 +49,43 @@ sudo vim /etc/hosts
                 '/' => 'default/index' #这里指默认入口为default控制器，下的index方法
             ]
         ];
+
+- 数据库配置
+    * config/db.php，主要修改数据库名和密码
+    
+    ```
+    return [
+             'class' => 'yii\db\Connection',
+             'dsn' => 'mysql:host=localhost;dbname=yii2basic',
+             'username' => 'root',
+             'password' => '',
+             'charset' => 'utf8',
+         
+             // Schema cache options (for production environment)
+             //'enableSchemaCache' => true,
+             //'schemaCacheDuration' => 60,
+             //'schemaCache' => 'cache',
+         ];
+    ```
+    > 注意：这里主要修改`dbname`和`password`这两部分。
+    
+- 渲染默认首页
+    我们在上面新增了`router.php`来配置默认首页路由，并创建了`DefaultController.php`控制器，现在修改`DefaultController.php`的`actionIndex`方法：
+    ```
+    <?php
+    namespace app\controllers;
+    
+    class DefaultController extends Controller
+    {
+        public function actionIndex() {
+            $this->layout = false; // false表示不使用默认布局
+            return $this->render("index");
+        }
+    }
+    ```
+    
+    在`views`中增加`index.php`文件。
+    ```
+    <h1>default/index</h1>
+    ```
+    至此，基础配置完成，下篇配置框架错误处理。
