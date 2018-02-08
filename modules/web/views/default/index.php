@@ -1,12 +1,30 @@
-<div class="web-default-index">
-    <h1><?= $this->context->action->uniqueId ?></h1>
-    <p>
-        This is the view content for action "<?= $this->context->action->id ?>".
-        The action belongs to the controller "<?= get_class($this->context) ?>"
-        in the "<?= $this->context->module->id ?>" module.
-    </p>
-    <p>
-        You may customize this page by editing the following file:<br>
-        <code><?= __FILE__ ?></code>
-    </p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>imooc图书商城</title>
+    <link rel="stylesheet" href="/web/css/www/app.css">
+    <link rel="stylesheet" href="/web/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/web/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="navbar navbar-inervse" role="navigation">
+    <div class="container">
+        <div class="navbar-collapse collapse pull-left">
+            <ul class="nav navbar-nav">
+                <li><a href="http://www.yii2book.com">首页</a></li>
+                <li><a target="_blank" href="#">博客</a></li>
+                <li><a href="http://www.yii2book.com/web/user/login">管理后台</a></li>
+            </ul>
+            <div class="jumbotron body-content">
+                <div class="jumbotron text-center">
+                    <img src="#" style="width: 320px; height: 320px;" alt="qrcode">
+                    <h3>扫码关注，获取更多信息...</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+</body>
+</html>

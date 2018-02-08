@@ -6,7 +6,7 @@
     <img src="./art/struct.jpg" height="150px">
 </p>
 
-> 访问 http://www.yii2demo.com/gii ，选择`Module Generator`，分别生成web模块、m模块
+> 访问 http://www.yii2demo.com/gii ，选择`Module Generator`，分别生成`web`模块、`m`模块
 
 <p align="center">
     <img src="./art/ModuleGenerator.png" height="150px">
@@ -30,4 +30,4 @@
 ```
 同样的方式添加m模块，注意目录结构。
 
-然后可以通过 http://www.yii2.book.com/m/ 访问m模块， http://www.yii2.book.com/web/ 访问web模块
+然后可以通过 http://www.yii2.book.com/m/ 访问`m模块`， http://www.yii2.book.com/web/ 访问`web模块`
