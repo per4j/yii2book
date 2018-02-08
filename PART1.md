@@ -33,3 +33,19 @@ sudo vim /etc/hosts
         1> 可以通过`php -r "echo md5(time());"`生成32位字符串
         
         2> 'cookieValidationKey' => 'a7aefd7057b8267315a0cf095ed58125',
+
+- urlManager设置
+    * 修改config/web.php
+    
+        1> 'urlManager' => require(__DIR__.'/router.php'),
+    * 新建router.php专门做路由规则文件
+    
+    ```
+    <?php
+        return [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                '/' => 'default/index' #这里指默认入口为default控制器，下的index方法
+            ]
+        ];

@@ -43,14 +43,8 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],
-        */
+
+        'urlManager' => require(__DIR__.'/router.php'),
     ],
     'params' => $params,
 ];
