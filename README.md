@@ -1,7 +1,7 @@
 MODIFICATION
 ------------
-1.[基础配置](./PART1.md)
-2.[错误处理](./PART2.md)
+1. [基础配置](./PART1.md)
+2. [错误处理](./PART2.md)
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
