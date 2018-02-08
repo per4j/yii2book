@@ -3,19 +3,19 @@
 我们要开发的是一个包含web后台和移动端的应用，这时候就需要使用yii2的gii工具生成对应的module。
 
 <p align="center">
-    <img src="./art/struct.jpg">
+    <img src="./art/struct.jpg" height="150px">
 </p>
 
 > 访问 http://www.yii2demo.com/gii ，选择`Module Generator`，分别生成web模块、m模块
 
 <p align="center">
-    <img src="./art/ModuleGenerator.png">
+    <img src="./art/ModuleGenerator.png" height="150px">
 </p>
 
 复制下面的内容到config/web.php中：
 
 <p align="center">
-    <img src="./art/config.png">
+    <img src="./art/config.png" height="150px">
 </p>
 
 ```
