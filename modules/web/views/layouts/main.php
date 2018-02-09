@@ -29,7 +29,7 @@ use \app\common\services\UrlService;
                     </div>
                 </li>
                 <li class="dashboard">
-                    <a href="#"><i class="fa fa-dashboard fa-lg"></i>
+                    <a href="<?=UrlService::buildUrl('dashboard/index')?>"><i class="fa fa-dashboard fa-lg"></i>
                         <span class="nav-label">仪表盘</span></a>
                 </li>
                 <li class="account">
@@ -51,7 +51,7 @@ use \app\common\services\UrlService;
                     <a href="<?=UrlService::buildUrl('qrcode/index')?>"><i class="fa fa-share-alt fa-lg"></i> <span class="nav-label">营销渠道</span></a>
                 </li>
                 <li class="stat">
-                    <a href="#"><i class="fa fa-bar-chart fa-lg"></i> <span class="nav-label">统计管理</span></a>
+                    <a href="<?=UrlService::buildUrl('stat/index')?>"><i class="fa fa-bar-chart fa-lg"></i> <span class="nav-label">统计管理</span></a>
                 </li>
             </ul>
 
