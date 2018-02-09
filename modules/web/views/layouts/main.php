@@ -45,7 +45,7 @@ use \app\common\services\UrlService;
                     <a href="<?=UrlService::buildUrl('member/index')?>"><i class="fa fa-group fa-lg"></i> <span class="nav-label">会员列表</span></a>
                 </li>
                 <li class="finance">
-                    <a href="#"><i class="fa fa-rmb fa-lg"></i> <span class="nav-label">财务管理</span></a>
+                    <a href="<?=UrlService::buildUrl('finance/index')?>"><i class="fa fa-rmb fa-lg"></i> <span class="nav-label">财务管理</span></a>
                 </li>
                 <li class="market">
                     <a href="#"><i class="fa fa-share-alt fa-lg"></i> <span class="nav-label">营销渠道</span></a>
