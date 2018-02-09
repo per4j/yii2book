@@ -49,3 +49,13 @@ if ( file_exists("/Users/release_version/version_book") ) {
 }
 ```
 > 建议将这个文件保存到服务器上的相关目录下，在每次有新版本发布时进行修改
+
+- 5.使用renderFile()抽取公共代码
+    我们的编辑和重置密码页面是通过标签方式切换的，如果将这部分分别写在`edit`, `reset_pwd`显示代码冗余，yii为我们提供了Yii::$app->view->renderFile()函数。
+    
+    * 使用方式：
+    在view中需要的位置添加以下代码，即可：
+    ```
+    <?php echo \Yii::$app->view->renderFile("@app/modules/web/views/common/tab_user.php",['current' => 'pwd']);?>
+    ```
+    两个参数，注意第一个参数，要以@开头，第二个参数是指定参数的，如：编辑页面current值为edit，重置密码为pwd。
