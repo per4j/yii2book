@@ -65,3 +65,7 @@ if ( file_exists("/Users/release_version/version_book") ) {
     * 1.新建BrandController
     * 2.新建Info, Set, Images方法
     * 3.新建对应的视图层
+- 8.搭建图书管理界面
+    * 1.新建BookController
+    * 2.新建Index, Set, Info, Images方法
+    * 3.新建对应的视图层
