@@ -73,3 +73,7 @@ if ( file_exists("/Users/release_version/version_book") ) {
     * 1.进入BookController
     * 2.新建cat, cat_set方法
     * 3.新建对应的视图层
+- 10.搭建会员管理界面
+    * 1.新建MemberController
+    * 2.新建Index, Info, Set, Comment方法
+    * 3.新建对应的视图层

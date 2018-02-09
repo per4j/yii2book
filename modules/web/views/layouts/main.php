@@ -42,7 +42,7 @@ use \app\common\services\UrlService;
                     <a href="<?=UrlService::buildUrl('book/index')?>"><i class="fa fa-book fa-lg"></i> <span class="nav-label">图书管理</span></a>
                 </li>
                 <li class="member">
-                    <a href="#"><i class="fa fa-group fa-lg"></i> <span class="nav-label">会员列表</span></a>
+                    <a href="<?=UrlService::buildUrl('member/index')?>"><i class="fa fa-group fa-lg"></i> <span class="nav-label">会员列表</span></a>
                 </li>
                 <li class="finance">
                     <a href="#"><i class="fa fa-rmb fa-lg"></i> <span class="nav-label">财务管理</span></a>
