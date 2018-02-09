@@ -20,12 +20,12 @@ class UserController extends Controller
     }
 
     public function actionEdit() {
-        $this->layout = 'user';
+        $this->layout = 'main';
         return $this->render("edit");
     }
 
     public function actionResetPwd() {
-        $this->layout = 'user';
+        $this->layout = 'main';
         return $this->render("reset_pwd");
     }
 }
