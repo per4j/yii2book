@@ -61,3 +61,7 @@ if ( file_exists("/Users/release_version/version_book") ) {
     两个参数，注意第一个参数，要以@开头，第二个参数是指定参数的，如：编辑页面current值为edit，重置密码为pwd。
 
 - 6.搭建账号相关页面
+- 7.搭建品牌相关页面
+    * 1.新建BrandController
+    * 2.新建Info, Set, Images方法
+    * 3.新建对应的视图层

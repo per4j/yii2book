@@ -36,7 +36,7 @@ use \app\common\services\UrlService;
                     <a href="#"><i class="fa fa-user fa-lg"></i> <span class="nav-label">账号管理</span></a>
                 </li>
                 <li class="brand">
-                    <a href="#"><i class="fa fa-cog fa-lg"></i> <span class="nav-label">品牌设置</span></a>
+                    <a href="<?=UrlService::buildUrl('brand/info')?>"><i class="fa fa-cog fa-lg"></i> <span class="nav-label">品牌设置</span></a>
                 </li>
                 <li class="book">
                     <a href="#"><i class="fa fa-book fa-lg"></i> <span class="nav-label">图书管理</span></a>
