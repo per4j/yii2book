@@ -31,4 +31,14 @@ class BookController extends Controller
         $this->layout = "main";
         return $this->render("images");
     }
+
+    public function actionCat() {
+        $this->layout = "main";
+        return $this->render("cat");
+    }
+
+    public function actionCat_set() {
+        $this->layout = "main";
+        return $this->render("cat_set");
+    }
 }

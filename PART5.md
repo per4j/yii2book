@@ -69,3 +69,7 @@ if ( file_exists("/Users/release_version/version_book") ) {
     * 1.新建BookController
     * 2.新建Index, Set, Info, Images方法
     * 3.新建对应的视图层
+- 9.搭建图书分类界面
+    * 1.进入BookController
+    * 2.新建cat, cat_set方法
+    * 3.新建对应的视图层
