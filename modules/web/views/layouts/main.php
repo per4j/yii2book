@@ -48,7 +48,7 @@ use \app\common\services\UrlService;
                     <a href="<?=UrlService::buildUrl('finance/index')?>"><i class="fa fa-rmb fa-lg"></i> <span class="nav-label">财务管理</span></a>
                 </li>
                 <li class="market">
-                    <a href="#"><i class="fa fa-share-alt fa-lg"></i> <span class="nav-label">营销渠道</span></a>
+                    <a href="<?=UrlService::buildUrl('qrcode/index')?>"><i class="fa fa-share-alt fa-lg"></i> <span class="nav-label">营销渠道</span></a>
                 </li>
                 <li class="stat">
                     <a href="#"><i class="fa fa-bar-chart fa-lg"></i> <span class="nav-label">统计管理</span></a>

@@ -81,3 +81,7 @@ if ( file_exists("/Users/release_version/version_book") ) {
     * 1.新建FinanceController
     * 2.新建Index, Account, Pay_info方法
     * 3.新建对应的视图层
+- 12.搭建营销渠道管理界面
+    * 1.新建QrcodeController
+    * 2.新建Index, Set方法
+    * 3.新建对应的视图层
