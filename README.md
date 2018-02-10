@@ -5,6 +5,7 @@ MODIFICATION
 3. [使用gii创建module](./PART3.md)
 4. [使用bootstrap搭建管理员后端界面](./PART4.md)
 5. [使用布局(layouts)](./PART5.md)
+6. [商城微信H5界面搭建](./PART6.md)
 
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
