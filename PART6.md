@@ -18,4 +18,7 @@
     ```
     
     在main.php中实现当前页面的公共部分布局，`$this->render('bind')`将会放入`<?=$content;?>`中。
-    
+- 2.搭建品牌首页界面
+    * 1.新建DefaultController
+    * 2.新建Index方法
+    * 3.新建对应的视图层
