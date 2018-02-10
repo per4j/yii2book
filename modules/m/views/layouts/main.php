@@ -27,9 +27,9 @@ use \app\common\services\UtilService;
     <p class="copyright">由<a href="<?=UrlService::buildUrl('/');?>" target="_blank">编程浪子</a>提供技术支持</p>
 </div>
 <div class="footer_fixed clearfix">
-	<span><a href="#" class="default"><i class="home_icon"></i><b>首页</b></a></span>
-	<span><a href="#" class="product"><i class="store_icon"></i><b>图书</b></a></span>
-	<span><a href="#" class="user"><i class="member_icon"></i><b>我的</b></a></span>
+	<span><a href="<?= UrlService::buildUrl('default/index')?>" class="default"><i class="home_icon"></i><b>首页</b></a></span>
+	<span><a href="<?= UrlService::buildUrl('product/index')?>" class="product"><i class="store_icon"></i><b>图书</b></a></span>
+	<span><a href="<?= UrlService::buildUrl('user/bind')?>" class="user"><i class="member_icon"></i><b>我的</b></a></span>
 </div>
 
 <div class="layout_hide_wrap hidden">
