@@ -26,3 +26,7 @@
     * 1.新建ProductController
     * 2.新建Index, Info方法
     * 3.新建对应的视图层
+- 4.搭建购物车界面
+    * 1.修改UserController
+    * 2.新建Cart方法
+    * 3.新建对应的视图层
