@@ -14,6 +14,12 @@ class UserController extends Controller
 
     public function actionCart() {
         $this->layout = "main";
-        $this->render('cart');
+        return $this->render('cart');
+    }
+
+    public function actionOrder() {
+
+        $this->layout = 'main';
+        return $this->render('order');
     }
 }

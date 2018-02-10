@@ -30,3 +30,7 @@
     * 1.修改UserController
     * 2.新建Cart方法
     * 3.新建对应的视图层
+- 5.搭建订单管理界面
+    * 1.在ProductController中增加Order方法
+    * 2.在UserController中增加Order方法
+    * 3.新建对应的视图层

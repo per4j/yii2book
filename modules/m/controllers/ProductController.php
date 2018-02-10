@@ -16,4 +16,10 @@ class ProductController extends Controller
         $this->layout = 'main';
         return $this->render('info');
     }
+
+    public function actionOrder() {
+
+        $this->layout = 'main';
+        return $this->render('order');
+    }
 }
