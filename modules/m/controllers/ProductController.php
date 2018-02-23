@@ -22,4 +22,10 @@ class ProductController extends Controller
         $this->layout = 'main';
         return $this->render('order');
     }
+
+    public function actionCart()
+    {
+        $this->layout = 'main';
+        return $this->render('cart');
+    }
 }

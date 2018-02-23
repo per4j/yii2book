@@ -38,3 +38,9 @@
     * 1.新建PayController
     * 2.新建Buy方法
     * 3.新建对应的视图层
+- 7.搭建会员中心界面
+    * 1.修改UserController
+    * 2.新建Index, Address, Address_set, Fav方法
+    * 3.新建对应的视图层
+    
+    * 4.修改ProductController，新增Cart方法及视图层
