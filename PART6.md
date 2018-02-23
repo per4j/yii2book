@@ -34,3 +34,7 @@
     * 1.在ProductController中增加Order方法
     * 2.在UserController中增加Order方法
     * 3.新建对应的视图层
+- 6.搭建微信支付界面
+    * 1.新建PayController
+    * 2.新建Buy方法
+    * 3.新建对应的视图层
