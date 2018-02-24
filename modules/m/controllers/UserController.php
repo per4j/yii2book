@@ -46,4 +46,16 @@ class UserController extends Controller
         $this->layout = 'main';
         return $this->render('fav');
     }
+
+    public function actionComment()
+    {
+        $this->layout = 'main';
+        return $this->render('comment');
+    }
+
+    public function actionComment_set()
+    {
+        $this->layout = 'main';
+        return $this->render('comment_set');
+    }
 }

@@ -44,3 +44,7 @@
     * 3.新建对应的视图层
     
     * 4.修改ProductController，新增Cart方法及视图层
+- 8.搭建会员评论界面
+    * 1.修改UserController
+    * 2.新建Comment, Comment_set方法
+    * 3.新建对应的视图层
