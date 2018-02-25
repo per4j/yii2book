@@ -16,6 +16,11 @@ class UrlService
         return Url::toRoute( array_merge([$uri], $params) );
     }
 
+    static public function buildWebUrl($url, $params = []) {
+        $path = Url::toRoute( array_merge([$url], $params));
+        return '/web'.$path;
+    }
+
     static public function buildNullUrl() {
         return "javascript:void(0)";
     }
