@@ -1,3 +1,3 @@
 <div class="jumbotron body-content">
-    <h1>default/index</h1>
+    错误信息：<?=error_msg;?>
 </div>

@@ -38,7 +38,9 @@ class ErrorController extends Controller
             $log_file->export(); // 写入文件
             //TODO: 写入数据库
         }
-        return "error<br/>错误信息：" . $err_msg;
+//        return "error<br/>错误信息：" . $err_msg;
+        $this->layout = 'test';
+        return $this->render('error', ['error_msg' => $err_msg]);
     }
 
 }
