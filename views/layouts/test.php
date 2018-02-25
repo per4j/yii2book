@@ -1,14 +1,19 @@
+<?php
+use app\assets\AppAsset;
+
+AppAsset::register($this);
+?>
+<?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>imooc图书商城</title>
-    <link rel="stylesheet" href="/web/css/www/app.css">
-    <link rel="stylesheet" href="/web/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/web/font-awesome/css/font-awesome.min.css">
+    <?php $this->head() ?>
 </head>
 <body>
+<?php $this->beginBody() ?>
 <div class="navbar navbar-inervse" role="navigation">
     <div class="container">
         <div class="navbar-collapse collapse pull-left">
@@ -23,5 +28,7 @@
         </div>
     </div>
 </div>
+<?php $this->endBody() ?>
 </body>
 </html>
+<?php $this->endPage() ?>

@@ -31,7 +31,7 @@ class WebAsset extends AssetBundle
         $release_version = defined("RELEASE_VERSION")?RELEASE_VERSION:time();
         $this->css = [
             UrlService::buildUrl("/bootstrap/css/bootstrap.min.css", ['var'=>$release_version]),
-            UrlService::buildUrl("/font-awesome/css/font-awesome.min.css?".$release_version),
+            UrlService::buildUrl("/font-awesome/css/font-awesome.min.css", ['var'=>$release_version]),
             UrlService::buildUrl("/css/www/style.css", ['var'=>$release_version])
         ];
 
